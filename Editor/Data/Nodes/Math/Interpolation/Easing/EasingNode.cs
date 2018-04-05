@@ -16,14 +16,14 @@ public class EasingNode : CodeFunctionNode
 
     public override string documentationURL
     {
-        get { return ""; }
+        get { return "https://github.com/andydbc/unity-shadergraph-nodes"; }
     }
 
     [SerializeField]
     EasingType m_EasingType = EasingType.Linear;
 
     [EnumControl("Type")]
-    public EasingType InterpolationType
+    public EasingType Type
     {
         get { return m_EasingType; }
         set
