@@ -36,14 +36,14 @@ public class EasingNode : CodeFunctionNode
         }
     }
 
-    string GetInterpolationName()
+    string GetTypeName()
     {
         return System.Enum.GetName(typeof(EasingType), m_EasingType);
     }
 
     protected override MethodInfo GetFunctionToConvert()
     {
-        return GetType().GetMethod(string.Format("Easing_{0}", GetInterpolationName()), BindingFlags.Static | BindingFlags.NonPublic);
+        return GetType().GetMethod(string.Format("Easing_{0}", GetTypeName()), BindingFlags.Static | BindingFlags.NonPublic);
     }
 
     static string Easing_Linear(
