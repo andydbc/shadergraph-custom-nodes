@@ -1,4 +1,4 @@
-# ShaderGraph Nodes
+# Shader Graph Nodes
 
 Collection of custom nodes made for the new Shader Graph from Unity.
 
