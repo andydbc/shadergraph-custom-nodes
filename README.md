@@ -1,6 +1,6 @@
 # Shader Graph Nodes
 
-Collection of Shader Graph's custom nodes.
+Collection of Shader Graph custom nodes.
 
 ### Math > Interpolation > Easing
 
