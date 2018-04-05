@@ -4,7 +4,7 @@ Collection of custom nodes made for the new Shader Graph from Unity.
 
 ### Math > Interpolation > Easing
 
-<img width="600" src=https://i.imgur.com/LTV76CV.gif>
+<img width="600" src=https://i.imgur.com/G2GbYLy.gif>
 
 ## System Requirements
 
