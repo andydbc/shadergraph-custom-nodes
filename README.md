@@ -1,6 +1,6 @@
 # Shader Graph Nodes
 
-Collection of custom nodes made for the new Shader Graph from Unity.
+Collection of Shader Graph's custom nodes.
 
 ### Math > Interpolation > Easing
 
