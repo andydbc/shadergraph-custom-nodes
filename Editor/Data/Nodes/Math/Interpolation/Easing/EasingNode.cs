@@ -16,7 +16,7 @@ public class EasingNode : CodeFunctionNode
 
     public override string documentationURL
     {
-        get { return "https://github.com/andydbc/unity-shadergraph-nodes"; }
+        get { return "https://github.com/andydbc/shadergraph-custom-nodes"; }
     }
 
     [SerializeField]
