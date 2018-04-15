@@ -10,6 +10,8 @@ Add support for Robert Penner's easing function.
 
 ### Procedural > Shape > Star
 
+Add support for a procedural star shape
+
 <img width="600" src=https://user-images.githubusercontent.com/31256170/38774443-5805fd70-4037-11e8-82b6-7c3aae8da43e.gif>
 
 ## System Requirements
