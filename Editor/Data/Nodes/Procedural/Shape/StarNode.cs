@@ -34,18 +34,18 @@ public class StarNode : CodeFunctionNode
 
     float pi = 3.14159265359;
 
-    float N = Sides;
-    float r = .5; 
-    float2 U = ((UV - 0.5) * 2.) * 1/Scale;
+    {precision} N = Sides;
+    {precision} r = .5; 
+    {precision}2 U = ((UV - 0.5) * 2.) * 1/Scale;
 
-    float a = atan2(U.x, U.y);
-    float l = length(U);
-    float b = pi/N;
-    float tb = tan(b);
+    {precision} a = atan2(U.x, U.y);
+    {precision} l = length(U);
+    {precision} b = pi/N;
+    {precision} tb = tan(b);
       
-    float s = (r * tb)/(sqrt(1.+tb*tb)-r); 
+    {precision} s = (r * tb)/(sqrt(1.+tb*tb)-r); 
 
-    float b2 = 2.*b;
+    {precision} b2 = 2.*b;
     a = (a-b2*floor(a/b2)) -b;
     U = l * float2(cos(a),sin(a)) / cos(b);
     U.y = abs(U.y);
