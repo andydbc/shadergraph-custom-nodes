@@ -20,4 +20,4 @@ Add support for a procedural star shape
 
 ## License
 
-> Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
+ Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
